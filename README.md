@@ -17,7 +17,7 @@ Models
 | Dense/Hidden  |             |                 |               | 120       | \(90\)         | \(108\)         |
 | Dense/Hidden  |             |                 |               | 0         | \(108\)        | \(9\)           |
 
-: []{#_Toc130832131 .anchor}Table 15: CNN 2D layer parameters
+Table 1: CNN 2D layer parameters
 
 ### Convolutional neural network 2D
 | **Layer**     | **Filters** | **Kernel size** | **Pool size** | **Units** | **Input size** | **Output size** |
@@ -34,7 +34,7 @@ Models
 | Dense/Hidden  |             |                 |               | 240       | \(480\)        | \(224\)         |
 | Dense/Hidden  |             |                 |               | 9         | \(224\)        | \(9\)           |
 
-: []{#_Toc130832133 .anchor}Table 17: CNNLSTM layer parameters
+Table 2: CNNLSTM layer parameters
 
 ### Long short-term memory neural network
 
@@ -45,7 +45,7 @@ Models
 | Dense/Hidden  | 90        | \(135\)        | \(90\)          |
 | Dense/Hidden  | 9         | \(90\)         | \(9\)           |
 
-: []{#_Toc130832135 .anchor}Table 19: LSTM-FCN layer parameters
+Table 3: LSTM-FCN layer parameters
 
 ### Convolutional neural network long short-term neural network (serial)
 
@@ -59,7 +59,7 @@ Models
 | Flatten       |             |                 |               |           | (250, 108)     | \(27000\)       |
 | Dense/Hidden  |             |                 |               | 9         | \(27000\)      | \(9\)           |
 
-: []{#_Toc130832137 .anchor}Table 21: CNNLSTM layer parameters
+Table 4: CNNLSTM layer parameters
 
 ### Long short-term memory fully convolutional neural network (LSTM-FCN)
 | **Layer**     | **Filters** | **Kernel size** | **Pool size** | **Units** | **Input size** | **Output size** |
@@ -80,6 +80,7 @@ Models
 | Dropout (0.8) |             |                 |               |           | (500,108)      | (500,108)       |
 | Max pooling   |             |                 | 2             |           | (500,108)      | (12, 108)       |
 
+Table 5: LSTM-FCN layer parameters
 
 Results
 =================================
@@ -100,7 +101,7 @@ Results
 | **Mean**    | 94.46%     | 92.72%     | 96.28%        | 94.84%       | 93.66%              | 99.05%        |
 | **Std Dev** | 0.49%      | 0.69%      | 0.41%         | 0.46%        | 0.46%               | 0.16%         |
 
-: []{#_Toc130832132 .anchor}Table 16: LSTM model's results
+Table 6: LSTM model's results
 
 ### Convolutional neural network 2D
 | **Run**     | **F1**     | **Recall** | **Precision** | **Accuracy** | **Accuracy (Test)** | **Macro AUC** |
@@ -118,7 +119,7 @@ Results
 | **Mean**    | 97.20%     | 97.05%     | 97.35%        | 99.24%       | 97.12%              | 99.58%        |
 | **Std Dev** | 0.17%      | 0.17%      | 0.17%         | 0.06%        | 0.20%               | 0.06%         |
 
-: []{#_Toc130832134 .anchor}Table 18: CNNLSTM model's results
+Table 7: CNNLSTM model's results
 
 ### Long short-term memory neural network
 | **Run**     | **F1**     | **Recall** | **Precision** | **Accuracy** | **Accuracy (Test)** | **Macro AUC** |
@@ -136,7 +137,7 @@ Results
 | **Mean**    | 82.04%     | 76.28%     | 88.85%        | 79.68%       | 81.31%              | 97.40%        |
 | **Std Dev** | 3.52%      | 4.85%      | 1.73%         | 4.36%        | 3.44%               | 0.88%         |
 
-: []{#_Toc130832136 .anchor}Table 20: LSTM model's results
+Table 8: LSTM model's results
 
 ### Convolutional neural network long short-term neural network (serial)
 
@@ -155,7 +156,7 @@ Results
 | **Mean**    | 94.38%     | 94.17%     | 94.60%        | 98.56%       | 94.25%              | 98.45%        |
 | **Std Dev** | 1.10%      | 1.13%      | 1.08%         | 0.11%        | 1.16%               | 0.24%         |
 
-: []{#_Toc130832138 .anchor}Table 22: Experiment result comparison
+Table 9: Experiment result comparison
 
 ### Long short-term memory fully convolutional neural network (LSTM-FCN)
 
@@ -173,3 +174,5 @@ Results
 | **10**      | **95.30**% | **95.10**% | **95.50**%    | **98.76**%   | **95.35**%          | **98.82**%    |
 | **Mean**    | 94.94%     | 94.63%     | 95.25%        | 98.77%       | 95.27%              | 98.74%        |
 | **Std Dev** | 0.18%      | 0.25%      | 0.13%         | 0.21%        | 0.17%               | 0.20%         |
+
+Table 9: Experiment result comparison
